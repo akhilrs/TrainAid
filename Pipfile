@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
+
+django = "==1.10.5"
+channels = "==1.0.3"
+pocketsphinx = "*"
+pyaudio = "*"
+
+[dev-packages]
+virtualenvwrapper = "*"
+
+
+
+[requires]
+python_version = "2.7"
