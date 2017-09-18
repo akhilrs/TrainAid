@@ -5,17 +5,19 @@ import pyaudio
 from pocketsphinx.pocketsphinx import *
 from sphinxbase.sphinxbase import *
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.realpath(__file__))
+
+print(BASE_DIR)
 
 MODEL_DIR = os.path.join(BASE_DIR, 'pocketsphinx/model')
-#
-# HMM_DIR = 'en-us/en-us'
-# LM_FILE = 'en-us/en-us.lm.bin'
-# DICT_FILE = 'en-us/cmudict-en-us.dict'
 
-HMM_DIR = 'en-in/en_in'
-LM_FILE = 'en-in/en-us.lm.bin'
-DICT_FILE = 'en-in/en-in.dic'
+HMM_DIR = 'en-us/en-us'
+LM_FILE = 'en-us/en-us.lm.bin'
+DICT_FILE = 'en-us/cmudict-en-us.dict'
+
+# HMM_DIR = 'en-in/en_in'
+# LM_FILE = 'en-in/en-us.lm.bin'
+# DICT_FILE = 'en-in/en-in.dic'
 
 config = Decoder.default_config()
 config.set_string('-hmm', os.path.join(MODEL_DIR, HMM_DIR))

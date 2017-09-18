@@ -44,3 +44,4 @@ target/
 
 #IntelliJ IDEA IDE
 .idea/
+wav/*
