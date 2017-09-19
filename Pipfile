@@ -8,9 +8,11 @@ django = "==1.10.5"
 channels = "==1.0.3"
 pocketsphinx = "*"
 pyaudio = "*"
+speechrecognition = "*"
 
 [dev-packages]
 virtualenvwrapper = "*"
+
 
 
 

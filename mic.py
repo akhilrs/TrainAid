@@ -9,10 +9,10 @@ BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
 print(BASE_DIR)
 
-MODEL_DIR = os.path.join(BASE_DIR, 'pocketsphinx/model')
+MODEL_DIR = os.path.join(BASE_DIR, 'model')
 
 HMM_DIR = 'en-us/en-us'
-LM_FILE = 'en-us/en-us.lm.bin'
+LM_FILE = 'en-us/en-70k-0.2.lm'
 DICT_FILE = 'en-us/cmudict-en-us.dict'
 
 # HMM_DIR = 'en-in/en_in'

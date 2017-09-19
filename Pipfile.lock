@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2415fb39943b153d544644fa124f9cd94e8b7c9e2408622db7de569a9d604c47"
+            "sha256": "f2e9463c82e2526118b3d911c3e792f35eaee4a09ddbdc1c5c2661f0ca46099b"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -9,9 +9,9 @@
             "os_name": "posix",
             "platform_machine": "x86_64",
             "platform_python_implementation": "CPython",
-            "platform_release": "4.4.0-87-generic",
+            "platform_release": "4.13.1-041301-generic",
             "platform_system": "Linux",
-            "platform_version": "#110-Ubuntu SMP Tue Jul 18 12:55:35 UTC 2017",
+            "platform_version": "#201709100232 SMP Sun Sep 10 06:33:36 UTC 2017",
             "python_full_version": "2.7.12",
             "python_version": "2.7",
             "sys_platform": "linux2"
@@ -142,6 +142,13 @@
             ],
             "version": "==0.2.11"
         },
+        "setuptools": {
+            "hashes": [
+                "sha256:ef824aefbd20dc364891836b75a19386dcf2f4235bf7d80531a8517ab29d0602",
+                "sha256:ce2007c1cea3359870b80657d634253a0765b0c7dc5a988d77ba803fc86f2c64"
+            ],
+            "version": "==36.5.0"
+        },
         "six": {
             "hashes": [
                 "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb",
@@ -149,12 +156,17 @@
             ],
             "version": "==1.11.0"
         },
+        "speechrecognition": {
+            "hashes": [
+                "sha256:fe4f5785e54e4b07852f00128f6219817cec7237c57194cf73608cbea327f7ad"
+            ],
+            "version": "==3.7.1"
+        },
         "twisted": {
             "hashes": [
-                "sha256:60cfb24a20a14d8113bbbdc15601da895f6c025189cb660b6dd1e73623675419",
-                "sha256:f198a494f0df2482f7c5f99d7f3eef33d22763ffc76641b36fec476b878002ea"
+                "sha256:2e56c37660f51980e188ded73b2e05aeaac543350c9bb0b3ce06f3e29d9b667a"
             ],
-            "version": "==17.5.0"
+            "version": "==17.9.0rc1"
         },
         "txaio": {
             "hashes": [
